@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<groups>
+			<run>
+				<include name="Regression"></include>
+				<include name="End To End"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNGexecution2.Yamaha" />
+			<class name="testNGexecution.LaunchingTwitter" />
+			<class name="testNGexecution2.Rajputana" />
+			<class name="testNGexecution.LaunchFacebook" />
+			<class name="testNGexecution.LaunchInstagram" />
+			<class name="testNGexecution2.Kawasaki" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
